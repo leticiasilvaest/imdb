@@ -247,7 +247,7 @@ if Dado_novo is not None:
 
 
         #carregando o modelo de predição
-        modelo = pickle.load(open('3modelo20220127.pkl','rb'))
+        modelo = pickle.load(open('model_logistic.pkl','rb'))
 
         #predição do modelo
         y_pred = modelo.predict(reviews_stemmer)
