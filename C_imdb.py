@@ -7,8 +7,8 @@ import streamlit.components.v1 as components
 import re
 import nltk
 import pickle
-import matplotlib.pyplot as plt
-import seaborn as sns
+#import matplotlib.pyplot as plt
+#import seaborn as sns
 
 
 
